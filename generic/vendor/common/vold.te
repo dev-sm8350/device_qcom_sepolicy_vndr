@@ -33,3 +33,6 @@ userdebug_or_eng(`
    dontaudit vold vendor_qmcs_file:dir { read };
 ')
 allow vold vendor_sysfs_mmc_host:file w_file_perms;
+userdebug_or_eng(`
+   dontaudit vold vendor_qmcs_file:dir { read };
+')

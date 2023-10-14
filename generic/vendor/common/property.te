@@ -128,6 +128,9 @@ vendor_internal_prop(vendor_console_log_level_prop)
 vendor_internal_prop(vendor_dcvs_prop)
 vendor_internal_prop(vendor_console_prop)
 
+#GNSS Frimware State
+vendor_internal_prop(vendor_gnss_fw_state)
+
 #pcie property
 vendor_internal_prop(vendor_pcie_prop)
 
